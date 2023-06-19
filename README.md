@@ -5,6 +5,7 @@ Implementing JUnit test on a simple calculator class.
 `@Test`, `@BeforeEach`, `@AfterEach`, `TestInfo`, `assertEquals()`
 
 
+
 ### 1
 
 Testing the methods of the class named `Calculator`.
@@ -40,11 +41,33 @@ testMultiply
 ```
 
 
-
 ## How to
 
 How to open project in Eclipse:
 
-   1. `File -> Open Projects from File System... -> Directory` and follow the steps on pop-up windows.
- 
-   2. `File -> New -> JUnit Test Case`
+   `File -> Open Projects from File System... -> Directory` and follow the steps on pop-up windows.
+   
+Note 1:
+
+   * Right Click on Project Directory in `Package Explorer`
+
+      `Build Path -> Add Libraries... -> JUnit`
+
+      Select Junit librarry version: `JUnit 5`
+
+      `Finish`
+
+OR: 
+
+   * Right Click on Project Directory in `Package Explorer`
+
+      `Build Path -> Configure Build path... -> Libraries -> Add Library.. -> JUNIT -> Next`
+
+      Select Junit librarry version: `JUnit 5`
+
+      `Finish`
+   
+   
+ Note 2:
+
+   * `File -> New -> JUnit Test Case`
